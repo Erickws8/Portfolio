@@ -47,7 +47,7 @@
       <string>Tipo de Movimentação:</string>
      </property>
     </widget>
-    <widget class="QRadioButton" name="radioButton_3">
+    <widget class="QRadioButton" name="rbDispesa">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -60,7 +60,7 @@
       <string>Dispesa</string>
      </property>
     </widget>
-    <widget class="QRadioButton" name="radioButton">
+    <widget class="QRadioButton" name="rbReceita">
      <property name="geometry">
       <rect>
        <x>110</x>
@@ -105,7 +105,7 @@
      <string>Data do Lançamento:</string>
     </property>
    </widget>
-   <widget class="QCalendarWidget" name="calendarWidget">
+   <widget class="QCalendarWidget" name="cldLanc">
     <property name="geometry">
      <rect>
       <x>360</x>
@@ -128,7 +128,7 @@
      <string>Descrição:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="txtDesc">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -144,7 +144,7 @@
      <number>100</number>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit">
+   <widget class="QTextEdit" name="txtObs">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -167,7 +167,7 @@
      <string>Obs.:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="txtValor">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -211,17 +211,17 @@
      <string>R$:</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btnCancelar">
     <property name="geometry">
      <rect>
-      <x>130</x>
+      <x>190</x>
       <y>390</y>
       <width>91</width>
       <height>41</height>
      </rect>
     </property>
     <property name="text">
-     <string>Salvar</string>
+     <string>Cancelar</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_6">
@@ -242,7 +242,7 @@
      <string>Data do Vencimento:</string>
     </property>
    </widget>
-   <widget class="QCalendarWidget" name="calendarWidget_2">
+   <widget class="QCalendarWidget" name="cldVenc">
     <property name="geometry">
      <rect>
       <x>360</x>
@@ -252,7 +252,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_3">
+   <widget class="QLineEdit" name="txtMovNum">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -276,6 +276,19 @@
     </property>
     <property name="text">
      <string>Nº da movimentação:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSalvar">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>390</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Salvar</string>
     </property>
    </widget>
   </widget>
