@@ -304,6 +304,18 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+ <tabstops>
+  <tabstop>txtMovNum</tabstop>
+  <tabstop>rbDispesa</tabstop>
+  <tabstop>rbReceita</tabstop>
+  <tabstop>txtDesc</tabstop>
+  <tabstop>txtValor</tabstop>
+  <tabstop>cldLanc</tabstop>
+  <tabstop>cldVenc</tabstop>
+  <tabstop>btnSalvar</tabstop>
+  <tabstop>btnCancelar</tabstop>
+  <tabstop>txtObs</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>
